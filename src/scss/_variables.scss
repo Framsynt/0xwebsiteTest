@@ -1,0 +1,46 @@
+//
+// Variables
+//
+
+// Colors
+copper: {
+      light: '#FBB583',
+      primary: '#C58252',
+      dark: '#915527'
+    },
+    blue: {
+      light: '#4E738F',
+      primary: '#204561',
+      dark: '#092134'
+    },
+    background: {
+      light: '#35424C',
+      primary: '#1E2833',
+      dark: '#0A0C0D'
+    },
+    green: {
+      light: '#5F9393',
+      primary: '#316565',
+      dark: '#0F2C2C'
+    },
+    red: {
+      light: '#FF7A80',
+      primary: '#CA4954',
+      dark: '#871D33'
+    },
+    white: {
+      primary: 'rgba(255,255,255,87)',
+      secondary: 'rgba(255,255,255,60)',
+      faded: 'rgba(255,255,255,38)'
+    },
+    black: {
+      primary: 'rgba(0,0,0,87)',
+      secondary: 'rgba(0,0,0,60)',
+      faded: 'rgba(0,0,0,38)'
+    }
+
+
+// Typography
+$source-sans: 'Source Sans Pro', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+

@@ -1,0 +1,100 @@
+//
+// Mixins
+//
+// usage
+// @include transition;
+
+@mixin transition {
+  transition: all 0.4s ease;
+}
+@mixin transition-bezier {
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+//
+//  Fonts
+//
+
+@mixin body1 {
+  font-size: "0.85rem";
+  line-height: "1.25rem";
+  font-weight: "400";
+}
+@mixin body2 {
+  size: "0.75rem";
+  line-height: "1rem";
+  font-weight: "300";
+}
+@mixin button {
+  size: "0.7rem";
+  line-height: "0.75rem";
+  font-weight: "400";
+}
+@mixin titleLarge {
+  size: "1.7rem";
+  line-height: "2rem";
+  font-weight: "300";
+}
+@mixin title1 {
+  size: "1.4rem";
+  line-height: "1.75rem";
+  font-weight: "300";
+}
+@mixin title2 {
+  size: "1.1rem";
+  line-height: "1.5rem";
+  font-weight: "300";
+}
+@mixin table:  {
+  size: "0.75rem";
+  line-height: "1rem";
+  font-weight: "400";
+}
+@mixin caption {
+  size: "0,6rem";
+  line-height: "0.75rem";
+  font-weight: "400";
+}
+@mixin captionMini {
+  size: "0,55rem";
+  line-height: "0.75rem";
+  font-weight: "400";
+}
+
+@mixin text-shadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+//
+//  MEDIA
+//
+
+// usage
+//  .my-box {
+//    padding: 10px;
+//
+//    @include desktop-up {
+//      padding: 20px;
+//    }
+//  }
+
+@mixin phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin tablet-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
