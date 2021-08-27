@@ -1,0 +1,29 @@
+{
+  "name": "0xventures",
+  "homepage": "https://0xventures.org",
+  "version": "0.0.1",
+  "description": "This is the main project repository for 0xVentures - 0xVentures.org is the frontend for all web related projects born out of the greatest minds of LP University to be built with [React]( https://reactjs.org/), paired with a Mobile Application.",
+  "main": "index.html",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && dart compile-sass.dart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/0xVentures/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xVentures/website/issues"
+  }
+}

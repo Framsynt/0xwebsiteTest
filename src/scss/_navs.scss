@@ -1,0 +1,96 @@
+//
+// Navs
+//
+
+// Top nav
+.top-nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  width: 100%;
+  background-color: $black-faded;
+  @include tablet-up {
+    background-color: transparent;
+  }
+}
+
+.nav-content {
+  width: 1040px;
+  max-width: 100%;
+  min-height: 2rem;
+  margin: 0px auto;
+}
+
+.nav-btn {
+  @include button;
+  line-height: $space-1;
+  display: inline-block;
+  height: $space-2;
+  padding: $space-05 $space-1;
+  position: relative;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  color: $white-secondary;
+}
+
+.nav-btn--menu {
+  @include tablet-up {
+    display: none;
+  }
+}
+
+.nav-logo {
+  position: absolute;
+  top: $space-05;
+  left: 50%;
+  transform: translateX(-50%);
+  height: $space-1;
+
+  @include tablet-up {
+    display: none;
+  }
+}
+
+// Side nav
+.side-nav-wrapper {
+  display: none;
+  @include tablet-up {
+    display: block;
+    position: fixed;
+    top: $space-1;
+    left: 0;
+    bottom: $space-1;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.side-nav {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: left;
+}
+
+.side-nav__btn {
+  @include title2;
+  @include text-shadow;
+  color: $white-secondary;
+  text-decoration: none;
+  text-transform: none;
+  text-align: left;
+  white-space: nowrap;
+  position: relative;
+  padding: $space-1 $space-05;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.side-nav__btn:hover,
+.side-nav__btn--active {
+  color: $white-primary;
+}

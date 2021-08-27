@@ -16,49 +16,51 @@
 //
 
 @mixin body1 {
-  font-size: "0.85rem";
-  line-height: "1.25rem";
-  font-weight: "400";
+  font-size: 0.85remg;
+  line-height: 1.25rem;
+  font-weight: 400;
 }
 @mixin body2 {
-  size: "0.75rem";
-  line-height: "1rem";
-  font-weight: "300";
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 300;
 }
 @mixin button {
-  size: "0.7rem";
-  line-height: "0.75rem";
-  font-weight: "400";
+  font-size: 0.7rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
 }
-@mixin titleLarge {
-  size: "1.7rem";
-  line-height: "2rem";
-  font-weight: "300";
+@mixin title-large {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 700;
 }
 @mixin title1 {
-  size: "1.4rem";
-  line-height: "1.75rem";
-  font-weight: "300";
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+  font-weight: 300;
 }
 @mixin title2 {
-  size: "1.1rem";
-  line-height: "1.5rem";
-  font-weight: "300";
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
 }
-@mixin table:  {
-  size: "0.75rem";
-  line-height: "1rem";
-  font-weight: "400";
+@mixin table {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
 }
 @mixin caption {
-  size: "0,6rem";
-  line-height: "0.75rem";
-  font-weight: "400";
+  font-size: 0,6rem;
+  line-height: 0.75rem;
+  font-weight: 400;
 }
-@mixin captionMini {
-  size: "0,55rem";
-  line-height: "0.75rem";
-  font-weight: "400";
+@mixin caption-mini {
+  font-size: 0,55rem;
+  line-height: 0.75rem;
+  font-weight: 400;
 }
 
 @mixin text-shadow {

@@ -1,0 +1,66 @@
+//
+// Typography
+//
+
+h1,
+.title-large {
+  @include title-large;
+}
+h2,
+.title1 {
+  @include title1;
+  margin-bottom: $space-1;
+}
+h3,
+.title2 {
+  @include title2;
+}
+h4,
+.body1 {
+  @include body1;
+  font-weight: 700;
+}
+
+p,
+.body1 {
+  @include body1;
+}
+.body2 {
+  @include body2;
+}
+
+.caption {
+  @include caption;
+}
+
+.caption--mini {
+  @include caption-mini;
+}
+
+button,
+.button {
+  @include button;
+  padding: $space-1 $space-05;
+}
+
+// Logo
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-indent: -9999rem;
+}
+.logo {
+  width: 6rem;
+  margin-bottom: $space-05;
+}
+.wordmark {
+  width: 6rem;
+}
+.slogan {
+  @include title-large;
+  @include text-shadow;
+  text-align: center;
+}

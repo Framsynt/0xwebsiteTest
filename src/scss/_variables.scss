@@ -3,44 +3,39 @@
 //
 
 // Colors
-copper: {
-      light: '#FBB583',
-      primary: '#C58252',
-      dark: '#915527'
-    },
-    blue: {
-      light: '#4E738F',
-      primary: '#204561',
-      dark: '#092134'
-    },
-    background: {
-      light: '#35424C',
-      primary: '#1E2833',
-      dark: '#0A0C0D'
-    },
-    green: {
-      light: '#5F9393',
-      primary: '#316565',
-      dark: '#0F2C2C'
-    },
-    red: {
-      light: '#FF7A80',
-      primary: '#CA4954',
-      dark: '#871D33'
-    },
-    white: {
-      primary: 'rgba(255,255,255,87)',
-      secondary: 'rgba(255,255,255,60)',
-      faded: 'rgba(255,255,255,38)'
-    },
-    black: {
-      primary: 'rgba(0,0,0,87)',
-      secondary: 'rgba(0,0,0,60)',
-      faded: 'rgba(0,0,0,38)'
-    }
+$copper-light: #FBB583;
+$copper-primary: #C58252;
+$copper-dark: #915527;
+$blue-light: #4E738F;
+$blue-primary: #204561;
+$blue-dark: #092134;
+$background-light: #35424C;
+$background-primary: #1E2833;
+$background-dark: #0a0c0d;
+$green-light: #5F9393;
+$green-primary: #316565;
+$green-dark: #0F2C2C;
+$red-light: #FF7A80;
+$red-primary: #CA4954;
+$red-dark: #871D33;
+$white-primary: rgba(255,255,255,0.87);
+$white-secondary: rgba(255,255,255,0.60);
+$white-faded: rgba(255,255,255,0.38);
+$black-primary: rgba(0,0,0,0.87);
+$black-secondary: rgba(0,0,0,0.60);
+$black-faded: rgba(0,0,0,0.38);
 
 
 // Typography
 $source-sans: 'Source Sans Pro', ui-sans-serif, system-ui, -apple-system, sans-serif;
+$line-length: 35rem;
 
 
+// Spacing
+$space-025: 0.25rem;
+$space-05: 0.5rem;
+$space-1: 1rem;
+$space-2: 2rem;
+$space-4: 4rem;
+$space-6: 6rem;
+$space-8: 8rem;

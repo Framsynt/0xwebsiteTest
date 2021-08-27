@@ -1,3 +1,12 @@
+//
+// Main styles file
+// only inports here
+// output in assets/css/styles.css
+//
+
 @import 'variables';
 @import 'mixins';
 @import 'globals';
+@import 'typography';
+@import 'navs';
+@import 'sections';

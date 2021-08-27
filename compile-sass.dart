@@ -2,9 +2,13 @@ import 'dart:io';
 import 'package:sass/sass.dart' as sass;
 
 // usage
-// dart compile-sass.dart src/scss/styles.scss assets/css/styles.css
+// dart compile-sass.dart
 
-void main(List<String> arguments) {
-  var result = sass.compile(arguments[0]);
-  new File(arguments[1]).writeAsStringSync(result);
+void main() {
+  var result = sass.compileToResult(
+    'src/scss/styles.scss',
+    color: true,
+    style: sass.OutputStyle.compressed,
+  );
+  new File('public/assets/css/styles.css').writeAsStringSync(result.css);
 }
