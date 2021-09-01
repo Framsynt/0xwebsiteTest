@@ -13,8 +13,10 @@
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
 
+    <link href="https://0xventures.org/" rel="canonical">
+
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@0x_Ventures" />
     <meta name="twitter:title" content="0xVentures DAO" />
     <meta
@@ -24,7 +26,7 @@
     />
     <meta
       name="twitter:image"
-      content="https://framsynt.github.io/0xwebsiteTest/assets/img/twitter_card.png"
+      content="//assets/img/twitter_card.png"
     />
   </head>
   <body>
@@ -35,27 +37,35 @@
       loop
       poster="assets/img/first_frame_3.1.1.jpg"
       class="back-video"
+      onloadeddata="console.log('Playing file ' + this.currentSrc);"
     >
       <source
-        src="https://link.us1.storjshare.io/raw/jxyphmuvucxfh2ap2pltsuxqufrq/ventures/moon_wide_720.mp4"
+        src="https://link.eu1.storjshare.io/raw/jwcbuuniio4jgdzxzptcun65sufa/ventures%2Fmoon_wide_1080.mp4"
         type="video/mp4"
-        media="all and (max-width:1000px)"
+        media="screen and (max-width: 1920px) and (orientation: landscape)"
       />
+
       <source
-        src="https://link.us1.storjshare.io/raw/jxyphmuvucxfh2ap2pltsuxqufrq/ventures/moon_wide_720.mp4"
+        src="https://link.eu1.storjshare.io/raw/jwyohjmzgn5otxznv7qa4odkzsgq/ventures%2Fmoon_wide_720.mp4"
         type="video/mp4"
-        media="all and (max-width:1500px)"
+        media="screen and (max-width: 1280px) and (orientation: landscape)"
       />
+
+
       <source
-        src="https://link.us1.storjshare.io/raw/jxc6zf2cuky4gewt6jjt5roiuxzq/ventures/moon_tall_720.mp4"
+        src="https://link.eu1.storjshare.io/raw/jvchdn25bj2i5v3yjvyxdsxvxrxa/ventures%2Fmoon_tall_1080.mp4"
         type="video/mp4"
-        media="(max-width:600px) and (orientation: portrait)"
+        media="screen and (max-width: 1080px) and (orientation: portrait)"
       />
+
       <source
-        src="https://link.us1.storjshare.io/raw/jxc6zf2cuky4gewt6jjt5roiuxzq/ventures/moon_tall_720.mp4"
+        src="https://link.eu1.storjshare.io/raw/jvh4oaohu6bpnju25cjtslrjnmtq/ventures%2Fmoon_tall_720.mp4"
         type="video/mp4"
-        media="(max-width:900px) and (orientation: portrait)"
+        media="screen and (max-width: 720px) and (orientation: portrait)"
       />
+
+
+
       <!-- <source src="webm" type="video/webm"> -->
     </video>
 
